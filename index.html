@@ -16,6 +16,15 @@
   
     gtag('config', 'G-QJ1Y58RWT6');
   </script>
+
+<script>
+    function registrarEvento() {
+      gtag('event', 'clique', {
+        'event_category': 'Botões',
+        'event_label': 'Meu Botão'
+      });
+    }
+  </script>
   
 
 </head>
@@ -52,7 +61,7 @@
   <section id="inscricao">
     <h2>Inscreva-se no Curso</h2>
     <p>Não perca a oportunidade de se tornar um especialista em Angular. Inscreva-se agora e comece sua jornada no mundo do desenvolvimento web moderno.</p>
-    <a href="link_para_formulario_de_inscricao" class="cta-button">Inscreva-se Agora</a>
+    <a id="meuBotao" onclick="registrarEvento()" class="cta-button">Inscreva-se Agora</a>
   </section>
 
   <style>
