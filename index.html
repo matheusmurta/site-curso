@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aprenda Angular com nosso curso prático e completo. Desenvolva aplicações web modernas e dinâmicas.">
-  <meta name="keywords" content="curso angular 2023, desenvolvimento web, programação frontend, aplicações web">
-  <title>Curso de Angular - Aprenda a construir aplicações web modernas</title>
+  <meta name="description" content="Aluguel de jogos de PS4 e PS5. Receba novidades sobre lançamentos e promoções.">
+  <meta name="keywords" content="aluguel, jogos, PS4, PS5, PlayStation, aluguel de jogos, games">
+  <title>Aluguel de Jogos PS4 e PS5</title>
 
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -27,7 +27,7 @@
 
 <script>
     function registrarEvento() {
-      gtag('event', 'clique', {
+      gtag('event', 'viu_a_pagina_inicial', {
         'event_category': 'Botões',
         'event_label': 'Meu Botão'
       });
@@ -42,127 +42,111 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9WVQKFK"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <header>
-    <h1>Curso de Angular 2023</h1>
+    <h1>Aluguel de Jogos de PS4 e PS5</h1>
     <nav>
-      <ul>
-        <li><a href="#sobre">Sobre o Curso</a></li>
-        <li><a href="#conteudo">Conteúdo do Curso</a></li>
-        <li><a href="#inscricao">Inscreva-se</a></li>
-      </ul>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#jogos">Jogos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <section id="sobre">
-    <h2>Sobre o Curso</h2>
-    <p>Este é o curso perfeito para você que deseja se tornar um desenvolvedor Angular. Aprenda a construir aplicações web modernas e dinâmicas utilizando as melhores práticas de desenvolvimento frontend.</p>
-  </section>
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Seja bem-vindo à nossa loja de aluguel de jogos de PS4 e PS5. Oferecemos uma ampla seleção de jogos emocionantes para os amantes do PlayStation.</p>
+</section>
 
-  <section id="conteudo">
-    <h2>Conteúdo do Curso</h2>
-    <ul>
-      <li>Introdução ao Angular</li>
-      <li>Componentes e Templates</li>
-      <li>Roteamento</li>
-      <li>Serviços e Injeção de Dependências</li>
-      <li>Formulários Reativos</li>
-      <li>Comunicação com APIs</li>
-      <li>Testes Unitários</li>
-    </ul>
-  </section>
+<section id="jogos">
+    <h2>Nossos Jogos</h2>
+    <p>Explore nossa coleção de jogos incríveis para PS4 e PS5.</p>
+    <img class="responsive-img" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/08/reservas-ps5-game-2435461.jpg?tf=3840x" alt="">
+</section>
 
-  <section id="inscricao">
-    <h2>Inscreva-se no Curso</h2>
-    <p>Não perca a oportunidade de se tornar um especialista em Angular. Inscreva-se agora e comece sua jornada no mundo do desenvolvimento web moderno.</p>
-    <button id="meuBotao" onclick="registrarEvento()" class="cta-button">Inscreva-se Agora</button>
-  </section>
+<section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Para receber novidades sobre lançamentos e promoções, inscreva-se abaixo:</p>
+    <form>
+        <button id="meuBotao" >Inscrever-se</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Aluguel de Jogos PS4 e PS5. Todos os direitos reservados.</p>
+</footer>
 
   <style>
-    /* Reset de estilos básicos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Estilos gerais */
+.responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+    /* Estilos gerais */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Cabeçalho */
 header {
-  background-color: #3498db;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav ul {
-  list-style: none;
+    list-style: none;
+    padding: 0;
 }
 
-nav li {
-  display: inline;
-  margin-right: 20px;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s;
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
-nav a:hover {
-  color: #ecf0f1;
-}
-
+/* Seções */
 section {
-  padding: 2rem;
+    padding: 2rem;
 }
 
-h1, h2 {
-  color: #333;
-}
-
-ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-}
-
-.cta-button {
-  display: inline-block;
-  background-color: #e74c3c;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #c0392b;
-}
-
-footer {
-  background-color: #34495e;
-  color: #ecf0f1;
-  text-align: center;
-  padding: 1rem;
-}
-
-/* Estilos responsivos */
-@media screen and (max-width: 768px) {
-  nav ul {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  nav li {
-    display: block;
+/* Formulário de inscrição */
+form input[type="email"] {
+    padding: 10px;
+    width: 100%;
     margin-bottom: 10px;
-  }
 }
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
 
   </style>
 
